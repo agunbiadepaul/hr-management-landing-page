@@ -70,8 +70,21 @@ nav ul li a {
   text-align: center;
 }
 
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .feature {
+  width: 30%;
   margin: 20px 0;
+  text-align: center;
+}
+
+.feature img {
+  width: 100%;
+  height: auto;
 }
 
 footer {
@@ -85,4 +98,19 @@ footer {
   color: #fff;
   margin: 0 10px;
   text-decoration: none;
+}
+
+.about ul {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  text-align: left;
+}
+
+.about ul li {
+  margin-bottom: 10px;
+}
+
+.about ul ul {
+  margin-left: 20px;
 }
